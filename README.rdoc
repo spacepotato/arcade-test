@@ -14,11 +14,11 @@ Now you will need to install the project requirements:
 
 You are now ready to run the project:
 
-  gulp serve
+    gulp serve
 
 For this task you have the choice between standard CSS and SASS. If you choose to use SASS we have provided a gulp task for sass compilation which can be run using
 
-  gulp sass
+    gulp sass
 
 Do note that this will overwrite the contents of arcade-test.css
 
@@ -26,10 +26,10 @@ Do note that this will overwrite the contents of arcade-test.css
 
 Your task is to finish implementing a simple angular application that displays a list of users and allows the end user to sort through this list. We will be paying particular attention to code quality and the design quality of the front-end. It's expected that this task will take no longer than 3 hours.
 
-    1. Adjust the TestFactory#getUsers method to include a fullname attribute on the returned object
-    2. Implement the TestController#loadUsers method to load the users from the factory and associate it to a variable
-    3. Implement templates/arcade-test.html so that the users are viewable
-    4. Implement a search box so that the end user can search the list of users
+1. Adjust the TestFactory#getUsers method to include a fullname attribute on the returned object
+2. Implement the TestController#loadUsers method to load the users from the factory and associate it to a variable
+3. Implement templates/arcade-test.html so that the users are viewable
+4. Implement a search box so that the end user can search the list of users
 
 And remember that we are particularly interested in the style choices and implementation choices you make. You may also be required to extend this project at a later date so make sure your code is clean and extensible.
 
